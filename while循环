@@ -1,0 +1,21 @@
+int main()
+{
+	int line = 0;
+
+	printf("加入微软\n");
+	while (line < 2000)
+	{
+		printf("继续练\n");
+		line++;
+
+	}
+	if (line >= 2000)
+	{
+		printf("成功");
+
+	}
+	else
+	{
+		printf("还得练");
+	}
+	return 0;
